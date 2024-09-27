@@ -4,4 +4,5 @@ def count_islands(map_grid):
     island_count = 0
     
     def dfs(r,c):
-        if r < 0 or r>= rows or c<0 or c>= cols or map_grid[r][c] == 'W'
+        if r < 0 or r>= rows or c<0 or c>= cols or map_grid[r][c] == 'W' or visited[r][c]:
+            
