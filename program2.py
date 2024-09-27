@@ -13,5 +13,5 @@ def decoder_ring(message, decoder_key):
             else:
                 match = False
                 break
-            
+    
 
