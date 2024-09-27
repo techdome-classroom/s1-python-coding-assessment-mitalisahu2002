@@ -10,5 +10,7 @@ def decoder_ring(message, decoder_key):
         else:
             if message_index < len(message) and char == message[message_index]:
                 message_index +=1
-    else:
-        
+            else:
+                match = False
+                break
+
