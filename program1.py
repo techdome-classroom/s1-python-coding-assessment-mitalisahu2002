@@ -1,2 +1,2 @@
 def count_islands(map_grid):
-    rows, cols
+    rows, cols = len(map_grid), len
