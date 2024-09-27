@@ -13,4 +13,7 @@ def count_islands(map_grid):
         dfs(r,c+1)
     for r in range(rows):
         for c in range(cols):
-            if map_grid[r][c] == 'L' and
+            if map_grid[r][c] == 'L' and not visited[r][c]:
+                dfs(r,c)
+                island_count += 1
+    return island_count
