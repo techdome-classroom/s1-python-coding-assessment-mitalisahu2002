@@ -8,4 +8,4 @@ def decoder_ring(message, decoder_key):
         elif char == '?':
             message_index += 1
         else:
-            if message_index < len(message) and char == message
+            if message_index < len(message) and char == message[message_index]:
